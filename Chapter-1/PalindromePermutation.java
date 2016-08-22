@@ -16,7 +16,8 @@ public class PalindromePermutation {
     }
 
     private static boolean isPallindromePermutation(String phrase) {
-        boolean[] parityBitArray = new boolean[94]; // number of valid ASCII characters
+        // number of valid ASCII characters
+        boolean[] parityBitArray = new boolean[94];
         for (int i = 0; i < phrase.length(); i++) {
             int charIndex = phrase.charAt(i) - '!';
             parityBitArray[charIndex] = !parityBitArray[charIndex];
