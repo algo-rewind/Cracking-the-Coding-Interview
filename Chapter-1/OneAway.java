@@ -52,8 +52,7 @@ public class OneAway {
             if (a.charAt(i) != b.charAt(j)) {
                 if (foundOneDifference)
                     return false;
-                foundOneDifference = true;
-                j++;
+                foundOneDifference = true; j++;
             } else {
                 i++; j++;
             }
