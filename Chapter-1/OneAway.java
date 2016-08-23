@@ -22,37 +22,42 @@ public class OneAway {
         // |s1 - s2 | >= 2
         if (abs(s1.length() - s2.length()) >= 2)
             return false;
-
-        boolean[] charSet = populateCharSet(s1, s2);
         // |s1 - s2| = 1
         if (abs(s1.length() - s2.length()) == 1)
-            return oneCharIsRemoved(charSet);
+            return oneCharIsRemoved(s1, s2);
         // |s1 - s2| = 0
-        return s1.equals(s2) ? true : oneCharIsReplaced(charSet);
+        return s1.equals(s2) ? true : oneCharIsReplaced(s1, s2);
     }
 
-    private static boolean[] populateCharSet(String s1, String s2) {
-        boolean[] charSet = new boolean[95];
-        for (char ch : s1.toCharArray())
-            charSet[ch - ' '] = !charSet[ch - ' '];
-        for (char ch : s2.toCharArray())
-            charSet[ch - ' '] = !charSet[ch - ' '];
-        return charSet;
+    private static boolean oneCharIsReplaced(String s1, String s2) {
+        boolean foundOneDifference = false;
+        for (int i = 0; i < s1.length(); i++) {
+            if (s1.charAt(i) != s2.charAt(i)) {
+                if (foundOneDifference)
+                    return false;
+                foundOneDifference = true;
+            }
+        }
+        return true;
     }
 
-    private static boolean oneCharIsReplaced(boolean[] charSet) {
-        return sumOfTruths(charSet) == 2;
-    }
+    private static boolean oneCharIsRemoved(String s1, String s2) {
+        // a = shorterOf(s1, s2), b = longerOf(s1, s2)
+        String a = s1.length() > s2.length() ? s2 : s1;
+        String b = s1.length() > s2.length() ? s1 : s2;
 
-    private static boolean oneCharIsRemoved(boolean[] charSet) {
-        return sumOfTruths(charSet) == 1;
-    }
-
-    private static int sumOfTruths(boolean[] arr) {
-        int count = 0;
-        for (boolean b : arr)
-            if (b)
-                count++;
-        return count;
+        int i = 0, j = 0;
+        boolean foundOneDifference = false;
+        while (i < a.length() && j < b.length()) {
+            if (a.charAt(i) != b.charAt(j)) {
+                if (foundOneDifference)
+                    return false;
+                foundOneDifference = true;
+                j++;
+            } else {
+                i++; j++;
+            }
+        }
+        return true;
     }
 }
