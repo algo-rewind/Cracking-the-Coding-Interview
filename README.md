@@ -8,3 +8,7 @@ Chapter 1
 6. StringCompression.java [NOT FINISHED]
 7. RotateMatrix.java
 8. ZeroMatrix.java
+9. StringRotation.java
+
+Chapter 2
+=========
