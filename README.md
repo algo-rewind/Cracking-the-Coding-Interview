@@ -5,3 +5,5 @@ Chapter 1
 3. URLify.java
 4. PalindromePermutation.java
 5. OneAway.java
+7. RotateMatrix.java
+8. ZeroMatrix.java
