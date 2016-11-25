@@ -12,3 +12,6 @@ Chapter 1
 
 Chapter 2
 =========
+1. RemoveDups.java
+2. ReturnKthToLast.java
+3. DeleteMiddleNode.java

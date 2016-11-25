@@ -39,6 +39,13 @@ public class Node<T> {
         return this.link != null;
     }
 
+    public Node<T> get(int k) {
+        Node<T> pointer = this;
+        for (int i = 0; i <= k; i++)
+            pointer = pointer.link;
+        return pointer;
+    }
+
     // Appends a Node to end of linked list
     public Node<T> add(T info) {
         Node<T> pointer = this;
