@@ -21,7 +21,6 @@ namespace Problems.Chapter_01
                     matrix[N - (i + 1), N - (j + 1)] = sw;
                     matrix[N - (j + 1), i          ] = nw;
                 }
-
         }
     }
 }
