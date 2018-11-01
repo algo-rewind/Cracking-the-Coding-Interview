@@ -12,7 +12,7 @@ Solutions to problems from "Cracking the Coding Interview 6E" by Gayle Laakmann 
 [01.04 Palindrome Permutation](/src/Problems/Chapter_01/Problem_04.cs)  
 [01.05 One Away](/src/Problems/Chapter_01/Problem_05.cs)  
 [01.06 String Compression](/src/Problems/Chapter_01/Problem_06.cs)  
-[01.07 Rotate Matrix](/src/Problems/Chapter_01/)  
+[01.07 Rotate Matrix](/src/Problems/Chapter_01/Problem_07.cs)  
 [01.08 Zero Matrix](/src/Problems/Chapter_01/)  
 [01.09 String Rotation](/src/Problems/Chapter_01/)  
 
