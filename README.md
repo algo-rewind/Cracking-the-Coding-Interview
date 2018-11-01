@@ -7,7 +7,7 @@ Solutions to problems from "Cracking the Coding Interview 6E" by Gayle Laakmann 
 ### Chapter 01 - Arrays and Strings
 
 [01.01 Is Unique](/src/Problems/Chapter_01/Problem_01.cs)  
-[01.02 Check Permutation](/src/Problems/Chapter_01/)  
+[01.02 Check Permutation](/src/Problems/Chapter_01/Problem_02.cs)  
 [01.03 URLify](/src/Problems/Chapter_01/)  
 [01.04 Palindrome Permutation](/src/Problems/Chapter_01/)  
 [01.05 One Away](/src/Problems/src/Problems/Chapter_01/)  
