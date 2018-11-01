@@ -6,8 +6,8 @@ namespace Problems.Test.Chapter_01
     [TestClass, TestCategory("Chapter_01")]
     public class Problem_02_Test
     {
-        private static readonly string[] PERMUTATIONS = {"ABCD", "CDAB"};
-        private static readonly string[] NON_PERMUTATIONS = {"ABCD", "CDAE"};
+        private static readonly string[] PERMUTATIONS = { "ABCD", "CDAB" };
+        private static readonly string[] NON_PERMUTATIONS = { "ABCD", "CDAE" };
 
         [TestMethod]
         public void CheckPermutation_ReturnsTrueForPermutatedStrings()
