@@ -18,14 +18,14 @@ Solutions to problems from "Cracking the Coding Interview 6E" by Gayle Laakmann 
 
 ### Chapter 02 - Linked Lists
 
-[02.01 Remove Dups](/src/Problems/Chapter_02/)  
-[02.02 Return Kth to Last](/src/Problems/Chapter_02/)  
-[02.03 Delete Middle Node](/src/Problems/Chapter_02/)  
-[02.04 Partition](/src/Problems/Chapter_02/)  
-[02.05 Sum Lists](/src/Problems/Chapter_02/)  
-[02.06 Palindrome](/src/Problems/Chapter_02/)  
-[02.07 Intersection](/src/Problems/Chapter_02/)  
-[02.08 Loop Detection](/src/Problems/Chapter_02/)  
+[02.01 Remove Dups](/src/Problems/Chapter_02/Problem_01.cs)  
+[02.02 Return Kth to Last](/src/Problems/Chapter_02/Problem_02.cs)  
+[02.03 Delete Middle Node](/src/Problems/Chapter_02/Problem_03.cs)  
+[02.04 Partition](/src/Problems/Chapter_02/Problem_04.cs)  
+[02.05 Sum Lists](/src/Problems/Chapter_02/Problem_05.cs)  
+[02.06 Palindrome](/src/Problems/Chapter_02/Problem_06.cs)  
+[02.07 Intersection](/src/Problems/Chapter_02/Problem_07.cs)  
+[02.08 Loop Detection](/src/Problems/Chapter_02/Problem_08.cs)  
 
 ### Chapter 03 - Stacks and Queues
 
